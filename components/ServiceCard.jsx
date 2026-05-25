@@ -1,29 +1,93 @@
 // components/ServiceCard.jsx
-// Represents a single service with an image, title, description and a link. It
-// accepts props to allow reuse on different pages. The card utilises
-// responsive design so that multiple cards can sit side‑by‑side on larger
-// screens and stack vertically on smaller devices.
+import Link from "next/link";
+import Image from "next/image";
 
-import Link from 'next/link';
-
-export default function ServiceCard({ title, description, image, href, buttonLabel }) {
+export default function ServiceCard({
+  title,
+  shortDescription,
+  description,
+  image,
+  href = "/contact",
+  buttonLabel = "Request a Quote",
+  highlights = [],
+  featured = false,
+}) {
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
+    <article
+      className={`group overflow-hidden rounded-3xl border shadow-2xl transition duration-200 hover:-translate-y-1 ${
+        featured
+          ? "border-[#7FC7F2]/25 bg-white/[0.07] shadow-black/20"
+          : "border-[#1076BA]/15 bg-white shadow-slate-950/10"
+      }`}
+    >
       {image && (
-        <div className="h-48 w-full bg-cover bg-center" style={{ backgroundImage: `url(${image})` }}></div>
+        <div className="relative h-64 w-full overflow-hidden bg-[#062238]">
+          <Image
+            src={image}
+            alt={`${title} service`}
+            fill
+            className="object-cover transition duration-500 group-hover:scale-105"
+            sizes="(min-width: 1024px) 50vw, 100vw"
+          />
+
+          <div
+            className={`absolute inset-0 ${
+              featured
+                ? "bg-gradient-to-t from-[#062238]/90 via-[#062238]/25 to-transparent"
+                : "bg-gradient-to-t from-black/45 via-transparent to-transparent"
+            }`}
+          />
+        </div>
       )}
-      <div className="p-5 flex-1 flex flex-col">
-        <h3 className="text-xl font-semibold mb-2 text-blue-800">{title}</h3>
-        <p className="text-gray-700 text-sm flex-1">{description}</p>
-        {href && buttonLabel && (
+
+      <div className="flex h-full flex-col p-7">
+        <h3
+          className={`text-2xl font-bold ${
+            featured ? "text-white" : "text-[#062238]"
+          }`}
+        >
+          {title}
+        </h3>
+
+        <p
+          className={`mt-4 leading-7 ${
+            featured ? "text-blue-50/75" : "text-slate-700"
+          }`}
+        >
+          {shortDescription || description}
+        </p>
+
+        {highlights.length > 0 && (
+          <ul className="mt-6 grid gap-3 sm:grid-cols-2">
+            {highlights.map((highlight) => (
+              <li
+                key={highlight}
+                className={`flex items-start gap-3 rounded-2xl px-4 py-3 text-sm font-semibold ${
+                  featured
+                    ? "border border-[#7FC7F2]/15 bg-white/[0.06] text-blue-50"
+                    : "border border-[#1076BA]/15 bg-[#E8F4FB] text-[#062238]"
+                }`}
+              >
+                <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-red-500" />
+                <span>{highlight}</span>
+              </li>
+            ))}
+          </ul>
+        )}
+
+        <div className="mt-7">
           <Link
             href={href}
-            className="mt-4 inline-block text-sm font-medium text-red-600 hover:underline"
+            className={`inline-flex items-center justify-center rounded-xl px-6 py-3 text-sm font-bold transition duration-200 focus:outline-none focus:ring-2 ${
+              featured
+                ? "bg-red-600 text-white shadow-lg shadow-red-950/30 hover:scale-[1.02] hover:bg-red-700 focus:ring-red-300"
+                : "bg-[#062238] text-white hover:bg-[#1076BA] focus:ring-[#7FC7F2]"
+            }`}
           >
-            {buttonLabel} &rarr;
+            {buttonLabel}
           </Link>
-        )}
+        </div>
       </div>
-    </div>
+    </article>
   );
 }

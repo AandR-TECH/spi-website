@@ -2,25 +2,53 @@
   {
     "slug": "plumbing",
     "title": "Plumbing",
-    "description": "At Specialised Plumbing Installation we strive to provide solutions for various reticulated water and wet fire systems. Our company offers the installation of plumbing and domestic irrigation systems, general repair or refurbishment of your fixtures, and we service onsite treatment plants, backflow devices and thermostatic mixing valves. We also provide in‑ground storm water and sewer works and above‑ground sanitary plumbing for domestic housing, retail shops, offices and other commercial establishments.",
-    "image": "/assets/plumbing-water.png"
+    "shortDescription": "Licensed plumbing installation, repairs, maintenance and water system solutions for homes, businesses and commercial sites.",
+    "description": "Specialised Plumbing Installation provides practical plumbing solutions across reticulated water systems, domestic irrigation, fixture repairs, refurbishments, onsite treatment plants, backflow devices and thermostatic mixing valves. We also complete in-ground stormwater and sewer works, along with above-ground sanitary plumbing for domestic housing, retail shops, offices and commercial establishments.",
+    "image": "/assets/plumbing-water.png",
+    "highlights": [
+      "Reticulated water systems",
+      "Fixture repairs and refurbishments",
+      "Stormwater and sewer works",
+      "Backflow and TMV servicing"
+    ]
   },
   {
     "slug": "fire-suppression",
     "title": "Fire Suppression",
-    "description": "We have developed a number of solutions to reduce the risks of fire hazards. Over the years we have installed and maintained in‑ground fire hydrant systems, above‑ground steel hydrant systems, hose reel systems and fire sprinkler systems for domestic, commercial and agricultural applications. Our fire suppression systems are also well suited to rural and agricultural settings such as machinery sheds, stables and feed storage sheds.",
-    "image": "/assets/hero-fire.png"
+    "shortDescription": "Wet fire suppression systems designed to help protect people, property, equipment and rural assets.",
+    "description": "SPI QLD installs and maintains wet fire suppression systems for domestic, commercial, rural and agricultural applications. This includes in-ground fire hydrant systems, above-ground steel hydrant systems, hose reel systems and fire sprinkler systems. These systems are well suited to rural properties, machinery sheds, stables, feed storage sheds and other high-risk areas.",
+    "image": "/assets/fire-sprinkler-storage-tank-system.jpg",
+    "highlights": [
+      "Wet fire suppression systems",
+      "Fire hydrant systems",
+      "Hose reel systems",
+      "Domestic, commercial and rural applications"
+    ]
   },
   {
     "slug": "gas-lpg-natural",
     "title": "Gas LPG & Natural",
-    "description": "Handling gas systems and appliances can be tricky and it is a legal requirement in Australia to engage a licenced gas fitter for such works. SPI QLD has the capacity to work on a variety of gas installation requirements – from swapping out appliances to installing complete gas supply systems and servicing hot water systems or food outlets.",
-    "image": "/assets/gas-energy.png"
+    "shortDescription": "Licensed gas fitting for LPG, natural gas systems, appliances, hot water systems and food outlets.",
+    "description": "Gas systems and appliances must be handled by a licensed gas fitter. SPI QLD can assist with a range of gas installation and servicing requirements, including appliance changeovers, complete gas supply systems, hot water systems and gas services for food outlets and commercial environments.",
+    "image": "/assets/gas-energy.png",
+    "highlights": [
+      "LPG and natural gas fitting",
+      "Gas appliance installation",
+      "Hot water system servicing",
+      "Commercial gas works"
+    ]
   },
   {
     "slug": "roofing",
-    "title": "Roofing",
-    "description": "Roofing, metal gutters and down‑pipe work are considered the bread and butter disciplines of the plumbing industry. We provide repairs and alterations to roofs, gutters and down pipes, and we supply and install rain water collection tanks above or below ground together with all associated pumping.",
-    "image": "/assets/plumbing-water.png"
+    "title": "Roofing, Gutters & Downpipes",
+    "shortDescription": "Roof plumbing, guttering, downpipes and rainwater collection solutions for residential and commercial properties.",
+    "description": "SPI QLD provides roof plumbing services including repairs and alterations to roofs, gutters and downpipes. We also supply and install rainwater collection tanks above or below ground, along with associated pumping systems where required.",
+    "image": "/assets/plumbing-water.png",
+    "highlights": [
+      "Roof plumbing repairs",
+      "Gutters and downpipes",
+      "Rainwater tank installation",
+      "Associated pumping systems"
+    ]
   }
 ]
