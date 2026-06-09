@@ -32,18 +32,14 @@ export default function Footer() {
           <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-center">
             <div>
               <p className="mb-3 text-sm font-bold uppercase tracking-[0.25em] text-[#7FC7F2]">
-                Need Licensed Trade Support?
+                Need licensed trade support?
               </p>
 
               <h2 className="max-w-3xl text-3xl font-bold tracking-tight text-white md:text-4xl">
-                Contact SPIAUS for plumbing, gas fitting, roofing and fire
-                suppression services.
+                Contact SPIAUS for SDA / NDIS wet fire suppression systems
+                across QLD, NSW, VIC and SA, or for plumbing, gas fitting,
+                rainwater tank and roofing works across South East Queensland.
               </h2>
-
-              <p className="mt-4 max-w-2xl leading-7 text-blue-50/80">
-                Servicing Greater South-East Queensland and Northern NSW for
-                domestic, commercial, rural and agricultural work.
-              </p>
             </div>
 
             <div className="flex flex-col gap-3 sm:flex-row lg:flex-col">
