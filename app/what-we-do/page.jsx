@@ -13,7 +13,7 @@ const categories = [
   {
     title: "Gas Fitting",
     description:
-      "Licensed gas fitting for LPG, natural gas systems, appliance changeovers, hot water systems and commercial gas requirements.",
+      "Gas fitting services for suitable residential, project-based, and maintenance requirements across South East Queensland.",
     image: "/assets/gas-energy.png",
     href: "/services#gas-lpg-natural",
   },
