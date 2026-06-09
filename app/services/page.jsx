@@ -8,7 +8,7 @@ async function getServices() {
 }
 
 export const metadata = {
-  title: "Services | SPI QLD",
+  title: "Services | SPIAUS",
   description:
     "Licensed plumbing, gas fitting, roofing and wet fire suppression services across Greater South-East Queensland and Northern NSW.",
 };
@@ -27,7 +27,7 @@ export default async function ServicesPage() {
         <div className="container relative mx-auto px-6 md:px-10">
           <div className="max-w-4xl">
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.25em] text-[#7FC7F2]">
-              SPI QLD Services
+              SPIAUS Services
             </p>
 
             <h1 className="text-4xl font-bold tracking-tight md:text-6xl">
@@ -35,7 +35,7 @@ export default async function ServicesPage() {
             </h1>
 
             <p className="mt-6 max-w-3xl text-lg leading-8 text-blue-50/80">
-              SPI QLD provides licensed trade services for domestic,
+              SPIAUS provides licensed trade services for domestic,
               commercial, rural and agricultural properties across Greater
               South-East Queensland and Northern NSW.
             </p>
@@ -94,7 +94,7 @@ export default async function ServicesPage() {
 
             <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-700">
               Whether the job involves plumbing, gas, roofing or wet fire
-              suppression, SPI QLD focuses on practical solutions completed by
+              suppression, SPIAUS focuses on practical solutions completed by
               licensed professionals.
             </p>
           </div>
@@ -169,12 +169,12 @@ export default async function ServicesPage() {
             </p>
 
             <h2 className="mx-auto max-w-3xl text-3xl font-bold tracking-tight text-[#062238] md:text-5xl">
-              Talk to SPI QLD about the right solution for your property.
+              Talk to SPIAUS about the right solution for your property.
             </h2>
 
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-slate-700">
               For plumbing, gas fitting, roofing or wet fire suppression work,
-              contact SPI QLD to discuss the job and arrange a quote.
+              contact SPIAUS to discuss the job and arrange a quote.
             </p>
 
             <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row">

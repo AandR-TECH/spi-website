@@ -6,7 +6,7 @@ const categories = [
   {
     title: "Plumbing",
     description:
-      "From household tap repairs through to complex pipe installations, SPI QLD provides practical plumbing solutions for homes, businesses and commercial sites.",
+      "From household tap repairs through to complex pipe installations, SPIAUS provides practical plumbing solutions for homes, businesses and commercial sites.",
     image: "/assets/plumbing-water.png",
     href: "/services#plumbing",
   },
@@ -36,9 +36,9 @@ const experiencePoints = [
 ];
 
 export const metadata = {
-  title: "What We Do | SPI QLD",
+  title: "What We Do | SPIAUS",
   description:
-    "SPI QLD provides plumbing, gas fitting, roofing and wet fire suppression services across Greater South-East Queensland and Northern NSW.",
+    "SPIAUS provides plumbing, gas fitting, roofing and wet fire suppression services across Greater South-East Queensland and Northern NSW.",
 };
 
 export default function WhatWeDoPage() {
@@ -89,7 +89,7 @@ export default function WhatWeDoPage() {
             <div className="relative min-h-[420px] overflow-hidden rounded-3xl border border-[#7FC7F2]/20 bg-white/[0.06] shadow-2xl">
               <Image
                 src="/assets/hero-fire.png"
-                alt="SPI QLD fire suppression and trade services"
+                alt="SPIAUS fire suppression and trade services"
                 fill
                 className="object-cover opacity-85"
                 sizes="(min-width: 1024px) 50vw, 100vw"
@@ -129,7 +129,7 @@ export default function WhatWeDoPage() {
             </h2>
 
             <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-700">
-              SPI QLD values the trust clients place in the business. Whether
+              SPIAUS values the trust clients place in the business. Whether
               the work involves water, gas, roofing or fire suppression, the goal
               is to provide practical solutions completed safely and properly.
             </p>
@@ -213,7 +213,7 @@ export default function WhatWeDoPage() {
               </h2>
 
               <p className="mt-6 text-lg leading-8 text-blue-50/80">
-                SPI QLD recognises that households, businesses and rural
+                SPIAUS recognises that households, businesses and rural
                 properties are vulnerable to fire damage. Wet fire suppression
                 systems can help reduce risk by acting before fire has a chance
                 to spread further.
@@ -233,7 +233,7 @@ export default function WhatWeDoPage() {
               <p className="text-lg leading-8 text-blue-50/80">
                 Since 2007, services have been provided across a range of sites
                 including multi-storey towers, aged care facilities, commercial
-                buildings and car parks. SPI QLD also works with rural and
+                buildings and car parks. SPIAUS also works with rural and
                 agricultural properties where internal and external fire
                 suppression can provide practical protection.
               </p>
@@ -265,11 +265,11 @@ export default function WhatWeDoPage() {
             </p>
 
             <h2 className="mx-auto max-w-3xl text-3xl font-bold tracking-tight text-[#062238] md:text-5xl">
-              Learn more about SPI QLD’s services or discuss your job directly.
+              Learn more about SPIAUS’s services or discuss your job directly.
             </h2>
 
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-slate-700">
-              View the detailed services page or contact SPI QLD to request a
+              View the detailed services page or contact SPIAUS to request a
               quote for your property, business or rural site.
             </p>
 

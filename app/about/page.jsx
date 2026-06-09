@@ -11,7 +11,7 @@ const infoCards = [
   {
     title: "Service Areas",
     description:
-      "SPI QLD services Greater South-East Queensland and Northern NSW.",
+      "SPIAUS services Greater South-East Queensland and Northern NSW.",
   },
   {
     title: "Free Quotes",
@@ -28,9 +28,9 @@ const capabilities = [
 ];
 
 export const metadata = {
-  title: "About | SPI QLD",
+  title: "About | SPIAUS",
   description:
-    "Learn about SPI QLD, Specialised Plumbing Installation, and its plumbing, gas fitting, roofing and wet fire suppression services across South-East QLD and Northern NSW.",
+    "Learn about SPIAUS, Specialised Plumbing Installation, and its plumbing, gas fitting, roofing and wet fire suppression services across South-East QLD and Northern NSW.",
 };
 
 export default function AboutPage() {
@@ -45,7 +45,7 @@ export default function AboutPage() {
         <div className="container relative mx-auto px-6 md:px-10">
           <div className="max-w-4xl">
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.25em] text-[#7FC7F2]">
-              About SPI QLD
+              About SPIAUS
             </p>
 
             <h1 className="text-4xl font-bold tracking-tight md:text-6xl">
@@ -127,14 +127,14 @@ export default function AboutPage() {
                 </p>
 
                 <p>
-                  That experience helped shape SPI QLD’s focus on wet fire
+                  That experience helped shape SPIAUS’s focus on wet fire
                   suppression systems. These systems are designed to help control
                   or extinguish fire and provide practical protection for people,
                   property, equipment and livestock.
                 </p>
 
                 <p>
-                  SPI QLD’s work includes internal sprinkler systems, external
+                  SPIAUS’s work includes internal sprinkler systems, external
                   fire protection and solutions suited to residential homes,
                   commercial sites, machinery sheds, stables, feed storage sheds
                   and other rural or agricultural settings.
@@ -180,7 +180,7 @@ export default function AboutPage() {
             <div className="rounded-3xl border border-[#7FC7F2]/20 bg-white/[0.06] p-8 shadow-2xl">
               <div className="space-y-5 text-lg leading-8 text-blue-50/80">
                 <p>
-                  SPI QLD works with wet fire suppression systems that can
+                  SPIAUS works with wet fire suppression systems that can
                   include internal sprinklers, external sprinklers and manually
                   or remotely activated protection depending on the property and
                   application.
@@ -214,7 +214,7 @@ export default function AboutPage() {
         <div className="container relative mx-auto px-6 md:px-10">
           <div className="mx-auto max-w-4xl text-center">
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.25em] text-[#1076BA]">
-              Why Work With SPI QLD?
+              Why Work With SPIAUS?
             </p>
 
             <h2 className="text-3xl font-bold tracking-tight text-[#062238] md:text-5xl">
@@ -262,7 +262,7 @@ export default function AboutPage() {
             </h2>
 
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-blue-50/80">
-              Contact SPI QLD to discuss the job and arrange a quote for your
+              Contact SPIAUS to discuss the job and arrange a quote for your
               property, business or rural site.
             </p>
 

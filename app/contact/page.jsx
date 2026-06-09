@@ -40,7 +40,7 @@ export default function ContactPage() {
         <div className="container relative mx-auto px-6 md:px-10">
           <div className="max-w-4xl">
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.25em] text-[#7FC7F2]">
-              Contact SPI QLD
+              Contact SPIAUS
             </p>
 
             <h1 className="text-4xl font-bold tracking-tight md:text-6xl">
@@ -66,7 +66,7 @@ export default function ContactPage() {
                 href="mailto:info@spiqld.com.au"
                 className="inline-flex items-center justify-center rounded-xl border-2 border-white/70 px-8 py-4 text-base font-bold text-white transition duration-200 hover:bg-white hover:text-[#062238] focus:outline-none focus:ring-2 focus:ring-white"
               >
-                Email SPI QLD
+                Email SPIAUS
               </a>
             </div>
           </div>
@@ -168,11 +168,11 @@ export default function ContactPage() {
               </p>
 
               <h2 className="text-3xl font-bold tracking-tight text-[#062238] md:text-4xl">
-                Tell SPI QLD what you need help with.
+                Tell SPIAUS what you need help with.
               </h2>
 
               <p className="mt-4 max-w-2xl leading-7 text-slate-700">
-                Send through the job details and SPI QLD will get back to you as
+                Send through the job details and SPIAUS will get back to you as
                 soon as possible. Include the service type, location and any
                 urgent details so the enquiry can be handled properly.
               </p>
@@ -198,12 +198,12 @@ export default function ContactPage() {
             </p>
 
             <h2 className="text-3xl font-bold tracking-tight md:text-5xl">
-              Speak directly with SPI QLD about your job.
+              Speak directly with SPIAUS about your job.
             </h2>
 
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-blue-50/80">
               For plumbing, gas fitting, roofing or wet fire suppression
-              enquiries, call SPI QLD or send through the contact form above.
+              enquiries, call SPIAUS or send through the contact form above.
             </p>
 
             <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row">

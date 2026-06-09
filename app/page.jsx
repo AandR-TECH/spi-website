@@ -61,7 +61,7 @@ export default async function HomePage() {
             </h2>
 
             <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-700">
-              SPI QLD works across domestic, commercial and agricultural
+              SPIAUS works across domestic, commercial and agricultural
               environments, providing reliable plumbing, gas fitting, roofing
               and fire suppression services backed by industry knowledge and
               licensed experience.
@@ -101,7 +101,7 @@ export default async function HomePage() {
 
             <p className="max-w-3xl text-lg leading-8 text-blue-50/80">
               From fire suppression systems through to general plumbing and gas
-              fitting, SPI QLD provides practical solutions for homes,
+              fitting, SPIAUS provides practical solutions for homes,
               businesses, rural properties and agricultural sites across Greater
               South-East QLD and Northern NSW.
             </p>
@@ -188,7 +188,7 @@ export default async function HomePage() {
                 </p>
 
                 <p>
-                  SPI QLD installs and services wet fire suppression systems for
+                  SPIAUS installs and services wet fire suppression systems for
                   a range of applications, including domestic homes, commercial
                   buildings, sheds, stables, rural properties and agricultural
                   sites.
@@ -235,7 +235,7 @@ export default async function HomePage() {
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-blue-50/80">
               For plumbing, gas fitting, roofing or wet fire suppression
               services across Greater South-East Queensland and Northern NSW,
-              contact SPI QLD to discuss the job.
+              contact SPIAUS to discuss the job.
             </p>
 
             <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row">

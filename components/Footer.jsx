@@ -36,7 +36,7 @@ export default function Footer() {
               </p>
 
               <h2 className="max-w-3xl text-3xl font-bold tracking-tight text-white md:text-4xl">
-                Contact SPI QLD for plumbing, gas fitting, roofing and fire
+                Contact SPIAUS for plumbing, gas fitting, roofing and fire
                 suppression services.
               </h2>
 
@@ -70,7 +70,7 @@ export default function Footer() {
             <div className="mb-5 inline-flex rounded-2xl bg-white p-3 shadow-lg">
               <Image
                 src="/assets/spi-logo.png"
-                alt="SPI QLD Logo"
+                alt="SPIAUS Logo"
                 width={150}
                 height={55}
                 className="h-auto w-[150px]"
@@ -183,7 +183,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-8 border-t border-[#1076BA]/25 pt-6">
           <div className="flex flex-col gap-3 text-sm text-blue-50/65 md:flex-row md:items-center md:justify-between">
-            <p>&copy; {year} SPI QLD. All rights reserved.</p>
+            <p>&copy; {year} SPIAUS. All rights reserved.</p>
             <p>Licensed • Insured • Greater South-East QLD & Northern NSW</p>
           </div>
         </div>

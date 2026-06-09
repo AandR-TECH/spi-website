@@ -1,5 +1,5 @@
 /*
- * Root layout for the SPI QLD website.
+ * Root layout for the SPIAUS website.
  *
  * This file defines the overall HTML structure applied to every page in
  * the application. It sets up the document's language, includes global
@@ -19,8 +19,8 @@ import Footer from '../components/Footer';
 // automatically compose the correct `<title>` element for each page.
 export const metadata = {
   title: {
-    default: 'Specialised Plumbing Installation QLD',
-    template: '%s – SPI QLD',
+    default: 'SPIAUS',
+    template: '%s – SPIAUS',
   },
   description:
     'Specialised Plumbing Installation in Queensland provides plumbing, gas fitting and wet fire suppression services for domestic, commercial and agricultural clients.',

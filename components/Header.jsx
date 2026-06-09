@@ -23,11 +23,11 @@ export default function Header() {
           <Link
             href="/"
             className="relative z-10 flex shrink-0 items-center rounded-2xl bg-white px-5 py-4 shadow-xl ring-1 ring-[#1076BA]/20 transition duration-200 hover:-translate-y-0.5 hover:shadow-2xl lg:-mb-7"
-            aria-label="SPI QLD Home"
+            aria-label="SPIAUS Home"
           >
             <Image
               src="/assets/spi-logo.png"
-              alt="SPI QLD Logo"
+              alt="SPIAUS Logo"
               width={260}
               height={118}
               priority

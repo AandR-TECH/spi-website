@@ -79,7 +79,7 @@ export default function HeroSection({
               <div className="mb-8 flex items-center justify-between gap-6">
                 <div>
                   <p className="text-sm font-bold uppercase tracking-[0.25em] text-[#7FC7F2]">
-                    SPI QLD
+                    SPIAUS
                   </p>
 
                   <p className="mt-2 text-2xl font-bold leading-tight text-white">
@@ -91,7 +91,7 @@ export default function HeroSection({
                 <div className="shrink-0 rounded-2xl bg-white p-3 shadow-lg">
                   <Image
                     src="/assets/spi-logo.png"
-                    alt="SPI QLD Logo"
+                    alt="SPIAUS Logo"
                     width={130}
                     height={48}
                     priority
