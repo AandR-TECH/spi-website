@@ -165,19 +165,10 @@ export default function Footer() {
 
         {/* Licence Strip */}
         <div className="mt-12 rounded-2xl border border-[#1076BA]/30 bg-white/[0.04] p-5">
-          <div className="grid gap-4 text-sm text-blue-50/75 md:grid-cols-3">
-            <p>
-              <span className="font-bold text-white">QBCC:</span> 15080203
-            </p>
-            <p>
-              <span className="font-bold text-white">NSW Contractor:</span>{" "}
-              284692C
-            </p>
-            <p>
-              <span className="font-bold text-white">NFIA Member:</span>{" "}
-              0507QI
-            </p>
-          </div>
+          <p className="text-sm text-blue-50/75">
+            <span className="font-bold text-white">Licences:</span> QBCC
+            15080203 | NSW 284692C | VIC 127544 | SA PGE 344740
+          </p>
         </div>
 
         {/* Bottom Bar */}

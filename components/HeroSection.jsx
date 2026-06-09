@@ -69,7 +69,7 @@ export default function HeroSection({
             </div>
 
             <p className="mt-7 max-w-2xl text-sm font-medium text-blue-50/65">
-              QBCC 15080203 • NSW Fair Trading Contractor 284692C • NFIA Member
+              QBCC 15080203 • NSW Fair Trading Contractor 284692C • Industry association: MPAQ
             </p>
           </div>
 

@@ -30,7 +30,7 @@ const trustPoints = [
   "QBCC Licensed",
   "Fully Insured",
   "NSW Fair Trading Contractor",
-  "NFIA Member",
+  "Industry association: MPAQ",
 ];
 
 export default async function HomePage() {
@@ -256,8 +256,8 @@ export default async function HomePage() {
             </div>
 
             <p className="mt-8 text-sm font-medium text-blue-50/65">
-              QBCC 15080203 • NSW Fair Trading Contractor 284692C • NFIA Member
-              0507QI
+              QBCC 15080203 • NSW Fair Trading Contractor 284692C •
+              Industry association: MPAQ
             </p>
           </div>
         </div>

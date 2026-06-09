@@ -165,16 +165,17 @@ export default async function ServicesPage() {
         <div className="container mx-auto px-6 md:px-10">
           <div className="rounded-3xl border border-[#1076BA]/15 bg-[#E8F4FB] p-8 text-center shadow-xl md:p-10">
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.25em] text-[#1076BA]">
-              Need Advice?
+              Need advice?
             </p>
 
             <h2 className="mx-auto max-w-3xl text-3xl font-bold tracking-tight text-[#062238] md:text-5xl">
-              Talk to SPIAUS about the right solution for your property.
+              Talk to SPIAUS about compliant SDA / NDIS wet fire suppression
+              systems, or speak with us about plumbing, gas fitting, rainwater
+              tank and roofing works.
             </h2>
 
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-slate-700">
-              For plumbing, gas fitting, roofing or wet fire suppression work,
-              contact SPIAUS to discuss the job and arrange a quote.
+              Contact SPIAUS to discuss your project and arrange a quote.
             </p>
 
             <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row">
