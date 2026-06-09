@@ -91,7 +91,7 @@ export default function ContactPage() {
               </h2>
 
               <p className="mt-4 leading-7 text-slate-700">
-                Servicing Greater South-East Queensland and Northern NSW for
+                Servicing South East Queensland for
                 domestic, commercial, rural and agricultural work.
               </p>
 

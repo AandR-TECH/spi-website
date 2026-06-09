@@ -38,7 +38,7 @@ const experiencePoints = [
 export const metadata = {
   title: "What We Do | SPIAUS",
   description:
-    "SPIAUS provides plumbing, gas fitting, roofing and wet fire suppression services across Greater South-East Queensland and Northern NSW.",
+    "SPIAUS provides plumbing, gas fitting, roofing and wet fire suppression services across South East Queensland.",
 };
 
 export default function WhatWeDoPage() {
@@ -65,7 +65,7 @@ export default function WhatWeDoPage() {
                 Specialised Plumbing Installation provides licensed plumbing,
                 gas fitting, roofing and wet fire suppression services for
                 domestic, commercial, rural and agricultural properties across
-                Greater South-East Queensland and Northern NSW.
+                South East Queensland.
               </p>
 
               <div className="mt-10 flex flex-col gap-4 sm:flex-row">

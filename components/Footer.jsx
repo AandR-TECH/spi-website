@@ -79,7 +79,7 @@ export default function Footer() {
 
             <p className="mt-4 max-w-sm leading-7 text-blue-50/75">
               Licensed plumbing, gas fitting, roofing and wet fire suppression
-              specialists across Greater South-East QLD and Northern NSW.
+              specialists across South East Queensland.
             </p>
           </div>
 
@@ -171,7 +171,7 @@ export default function Footer() {
         <div className="mt-8 border-t border-[#1076BA]/25 pt-6">
           <div className="flex flex-col gap-3 text-sm text-blue-50/65 md:flex-row md:items-center md:justify-between">
             <p>&copy; {year} SPIAUS. All rights reserved.</p>
-            <p>Licensed • Insured • Greater South-East QLD & Northern NSW</p>
+            <p>Licensed • Insured • South East Queensland</p>
           </div>
         </div>
       </div>

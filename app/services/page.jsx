@@ -10,7 +10,7 @@ async function getServices() {
 export const metadata = {
   title: "Services | SPIAUS",
   description:
-    "Licensed plumbing, gas fitting, roofing and wet fire suppression services across Greater South-East Queensland and Northern NSW.",
+    "Licensed plumbing, gas fitting, roofing and wet fire suppression services across South East Queensland.",
 };
 
 export default async function ServicesPage() {
@@ -37,7 +37,7 @@ export default async function ServicesPage() {
             <p className="mt-6 max-w-3xl text-lg leading-8 text-blue-50/80">
               SPIAUS provides licensed trade services for domestic,
               commercial, rural and agricultural properties across Greater
-              South-East Queensland and Northern NSW.
+              South East Queensland.
             </p>
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
