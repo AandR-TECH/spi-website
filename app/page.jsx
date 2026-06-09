@@ -5,9 +5,9 @@ import Image from "next/image";
 
 const services = [
   {
-    title: "Wet Fire Suppression",
+    title: "SDA / NDIS Wet Fire Suppression Systems",
     description:
-      "Installation, servicing and maintenance of wet fire suppression systems for domestic, commercial, rural and agricultural properties.",
+      "Compliant wet fire suppression systems for SDA / NDIS Specialist Disability Accommodation projects across QLD, NSW, VIC and SA.",
   },
   {
     title: "Plumbing Services",
@@ -20,9 +20,9 @@ const services = [
       "Safe and compliant gas fitting services completed by qualified professionals for residential, commercial and rural applications.",
   },
   {
-    title: "Roofing, Gutters & Downpipes",
+    title: "Rainwater Tanks, Roofing & Downpipes",
     description:
-      "Roof plumbing, guttering and downpipe work to help protect properties from water damage and drainage issues.",
+      "Rainwater tank, roof plumbing, guttering and downpipe work to help protect properties from water damage and drainage issues.",
   },
 ];
 
@@ -37,8 +37,8 @@ export default async function HomePage() {
   return (
     <>
       <HeroSection
-        title="The Trusted Plumbing & Fire Suppression Experts"
-        subtitle="Specialised Plumbing Installation provides licensed plumbing, gas fitting, roofing, and wet fire suppression services across Greater South-East Queensland and Northern NSW."
+        title="SDA / NDIS Wet Fire Suppression Specialists"
+        subtitle="SPIAUS provides compliant wet fire suppression solutions for Specialist Disability Accommodation and NDIS projects across QLD, NSW, VIC and SA."
         imageSrc="/assets/hero-fire.png"
         ctaLabel="Request a Quote"
         ctaHref="/contact"
@@ -56,15 +56,14 @@ export default async function HomePage() {
             </p>
 
             <h2 className="text-3xl font-bold tracking-tight text-[#062238] md:text-5xl">
-              Practical trade services for properties that need to be protected,
-              maintained and kept operational.
+              Compliant wet fire suppression systems for SDA / NDIS projects.
             </h2>
 
             <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-700">
-              SPIAUS works across domestic, commercial and agricultural
-              environments, providing reliable plumbing, gas fitting, roofing
-              and fire suppression services backed by industry knowledge and
-              licensed experience.
+              SPIAUS specialises in compliant wet fire suppression systems for
+              SDA / NDIS Specialist Disability Accommodation projects. We also
+              provide plumbing, gas fitting, rainwater tank and roofing services
+              across South East Queensland.
             </p>
           </div>
 
@@ -95,15 +94,15 @@ export default async function HomePage() {
               </p>
 
               <h2 className="text-3xl font-bold tracking-tight md:text-5xl">
-                Licensed services for fire, water, gas and property protection.
+                SDA fire suppression first, backed by licensed trade services.
               </h2>
             </div>
 
             <p className="max-w-3xl text-lg leading-8 text-blue-50/80">
-              From fire suppression systems through to general plumbing and gas
-              fitting, SPIAUS provides practical solutions for homes,
-              businesses, rural properties and agricultural sites across Greater
-              South-East QLD and Northern NSW.
+              SPIAUS provides SDA / NDIS wet fire suppression systems for
+              Specialist Disability Accommodation projects, along with practical
+              plumbing, gas fitting, rainwater tank and roofing services across
+              South East Queensland.
             </p>
           </div>
 
@@ -164,34 +163,36 @@ export default async function HomePage() {
                 </p>
 
                 <p className="mt-3 max-w-md text-2xl font-bold leading-tight">
-                  Fire suppression systems help control risk before damage
-                  spreads.
+                  SDA / NDIS wet fire suppression systems help manage fire risk
+                  before damage spreads.
                 </p>
               </div>
             </div>
 
             <div>
               <p className="mb-4 text-sm font-bold uppercase tracking-[0.25em] text-[#1076BA]">
-                Fire Suppression
+                SDA / NDIS Fire Suppression
               </p>
 
               <h2 className="text-3xl font-bold tracking-tight text-[#062238] md:text-5xl">
-                Smoke alarms warn you. Fire suppression systems act.
+                Specialist Disability Accommodation fire suppression requires a
+                compliant, practical approach.
               </h2>
 
               <div className="mt-6 space-y-5 text-lg leading-8 text-slate-700">
                 <p>
-                  Smoke alarms are essential, but they are an awareness system.
-                  Wet fire suppression systems are designed to help control or
-                  extinguish a fire before it can cause further harm to people,
-                  property, equipment or livestock.
+                  SDA fire suppression and NDIS fire suppression projects need
+                  systems designed around compliance, occupancy requirements and
+                  reliable operation. Wet fire suppression systems are designed
+                  to help control or extinguish a fire before it can cause
+                  further harm.
                 </p>
 
                 <p>
-                  SPIAUS installs and services wet fire suppression systems for
-                  a range of applications, including domestic homes, commercial
-                  buildings, sheds, stables, rural properties and agricultural
-                  sites.
+                  SPIAUS installs and services compliant wet fire suppression
+                  systems for Specialist Disability Accommodation projects, with
+                  supporting trade services available where the wider job
+                  requires plumbing, gas fitting, rainwater tanks or roofing.
                 </p>
               </div>
 
@@ -200,7 +201,7 @@ export default async function HomePage() {
                   href="/services"
                   className="inline-flex items-center justify-center rounded-xl bg-red-600 px-8 py-4 text-base font-bold text-white shadow-xl shadow-red-950/30 transition duration-200 hover:scale-[1.02] hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-300"
                 >
-                  Learn About Fire Suppression
+                  Learn About SDA Fire Suppression
                 </Link>
 
                 <Link
@@ -228,14 +229,14 @@ export default async function HomePage() {
             </p>
 
             <h2 className="text-3xl font-bold tracking-tight md:text-5xl">
-              Get licensed plumbing and fire suppression support from a
-              specialist local team.
+              Get SDA / NDIS fire suppression support from a specialist trade
+              team.
             </h2>
 
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-blue-50/80">
-              For plumbing, gas fitting, roofing or wet fire suppression
-              services across Greater South-East Queensland and Northern NSW,
-              contact SPIAUS to discuss the job.
+              For SDA / NDIS wet fire suppression systems or supporting
+              plumbing, gas fitting, rainwater tank and roofing work, contact
+              SPIAUS to discuss the job.
             </p>
 
             <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row">

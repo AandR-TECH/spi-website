@@ -3,8 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function HeroSection({
-  title = "The Trusted Plumbing & Fire Suppression Experts",
-  subtitle = "Specialised Plumbing Installation provides licensed plumbing, gas fitting, and wet fire suppression services across Greater South-East Queensland and Northern NSW.",
+  title = "SDA / NDIS Wet Fire Suppression Specialists",
+  subtitle = "SPIAUS provides compliant wet fire suppression solutions for Specialist Disability Accommodation and NDIS projects across QLD, NSW, VIC and SA.",
   imageSrc = "/assets/hero-image.jpg",
   ctaLabel = "Request a Quote",
   ctaHref = "/contact",
@@ -17,7 +17,7 @@ export default function HeroSection({
       {/* Background Image */}
       <Image
         src={imageSrc}
-        alt="Specialised Plumbing Installation fire suppression and plumbing services"
+        alt="SPIAUS SDA and NDIS wet fire suppression systems"
         fill
         className="object-cover"
         priority
@@ -83,8 +83,8 @@ export default function HeroSection({
                   </p>
 
                   <p className="mt-2 text-2xl font-bold leading-tight text-white">
-                    Specialist trade services for homes, businesses and rural
-                    sites.
+                    Compliant wet fire suppression systems for SDA and NDIS
+                    projects.
                   </p>
                 </div>
 
@@ -101,20 +101,20 @@ export default function HeroSection({
               </div>
 
               <div className="space-y-4">
-                <HeroServiceItem title="Wet Fire Suppression" />
+                <HeroServiceItem title="SDA / NDIS Wet Fire Suppression Systems" />
                 <HeroServiceItem title="Plumbing Installation & Repairs" />
                 <HeroServiceItem title="Gas Fitting" />
-                <HeroServiceItem title="Roofing, Gutters & Downpipes" />
+                <HeroServiceItem title="Rainwater Tanks, Roofing & Downpipes" />
               </div>
 
               <div className="mt-8 rounded-2xl border border-[#7FC7F2]/20 bg-[#1076BA]/15 p-5">
                 <p className="text-sm font-bold text-blue-50">
-                  Servicing Greater South-East QLD and Northern NSW.
+                  SDA / NDIS projects across QLD, NSW, VIC and SA.
                 </p>
 
                 <p className="mt-2 text-sm leading-6 text-blue-50/75">
-                  Domestic, commercial, rural and agricultural work handled by
-                  licensed professionals.
+                  Supporting plumbing, gas fitting, rainwater tank and roofing
+                  services across South East Queensland.
                 </p>
               </div>
             </div>
