@@ -1,7 +1,4 @@
 // components/ContactForm.jsx
-// A simple contact form. It does not actually submit to a backend but
-// demonstrates how to build an accessible form. If you integrate a real API
-// endpoint later you can modify the `onSubmit` handler accordingly.
 
 import { useState } from 'react';
 
@@ -16,7 +13,8 @@ export default function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // In a real application you would post `formState` to an API.
+    
+    // this needs to connect to resend API, to handle the email requests
     setSubmitted(true);
   };
 

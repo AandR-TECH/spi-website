@@ -16,7 +16,7 @@ const infoCards = [
   {
     title: "Free Quotes",
     description:
-      "Request a clear quote for plumbing, gas fitting, roofing or fire suppression services.",
+      "Request a clear quote for fire suppression,plumbing, gas fitting, or roofing services.",
   },
 ];
 
@@ -30,7 +30,7 @@ const capabilities = [
 export const metadata = {
   title: "About | SPIAUS",
   description:
-    "Learn about SPIAUS, Specialised Plumbing Installation, and its plumbing, gas fitting, roofing and wet fire suppression services across South East Queensland.",
+    "Learn about SPIAUS, Specialised Plumbing Installation, and its wet fire suppression, plumbing, gas fitting, and roofing services across South East Queensland.",
 };
 
 export default function AboutPage() {
