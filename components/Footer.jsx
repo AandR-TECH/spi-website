@@ -138,10 +138,10 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:info@spiqld.com.au"
+                  href="mailto:info@spiaus.com.au"
                   className="transition hover:text-[#7FC7F2]"
                 >
-                  info@spiqld.com.au
+                  info@spiaus.com.au
                 </a>
               </li>
             </ul>

@@ -12,8 +12,8 @@ const contactDetails = [
   },
   {
     label: "Email",
-    value: "info@spiqld.com.au",
-    href: "mailto:info@spiqld.com.au",
+    value: "info@spiaus.com.au",
+    href: "mailto:info@spiaus.com.au",
   },
   {
     label: "Location",
@@ -63,7 +63,7 @@ export default function ContactPage() {
               </a>
 
               <a
-                href="mailto:info@spiqld.com.au"
+                href="mailto:info@spiaus.com.au"
                 className="inline-flex items-center justify-center rounded-xl border-2 border-white/70 px-8 py-4 text-base font-bold text-white transition duration-200 hover:bg-white hover:text-[#062238] focus:outline-none focus:ring-2 focus:ring-white"
               >
                 Email SPIAUS

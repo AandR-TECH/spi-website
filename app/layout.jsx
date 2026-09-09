@@ -25,7 +25,7 @@ export const metadata = {
   description:
     'Specialised Plumbing Installation in Queensland provides plumbing, gas fitting and wet fire suppression services for domestic, commercial and agricultural clients.',
   keywords: ['Specialised Plumbing Installation', 'QLD', 'fire suppression', 'gas fitting', 'plumbing'],
-  authors: [{ name: 'Specialised Plumbing Installation QLD', url: 'https://www.spiqld.com.au' }],
+  authors: [{ name: 'Specialised Plumbing Installation QLD', url: 'https://www.spiaus.com.au' }],
   icons: {
     icon: '/favicon.ico',
   },
