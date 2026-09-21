@@ -1,4 +1,4 @@
-# SPI QLD – Next.js 15 App Router Site
+# SPI QLD - Next.js 15 App Router Site
 
 This repository contains a **Next.js 15** application that recreates the public portions of the [Specialised Plumbing Installation](https://www.spiaus.com.au/) (SPI QLD) website. The project uses the App Router and server components, modern React patterns and Tailwind CSS for styling. Content has been carefully extracted from the public site【179737432644349†L15-L37】【291620522867057†L17-L19】, reorganised into reusable React components and structured into a maintainable codebase.
 

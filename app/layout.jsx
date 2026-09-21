@@ -20,7 +20,7 @@ import Footer from '../components/Footer';
 export const metadata = {
   title: {
     default: 'SPIAUS',
-    template: '%s – SPIAUS',
+    template: '%s - SPIAUS',
   },
   description:
     'Specialised Plumbing Installation in Queensland provides plumbing, gas fitting and wet fire suppression services for domestic, commercial and agricultural clients.',

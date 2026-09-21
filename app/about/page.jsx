@@ -11,7 +11,7 @@ const infoCards = [
   {
     title: "Service Areas",
     description:
-      "SPIAUS services South East Queensland.",
+      "SPIAUS services South East Queensland, New South Wales, Victoria and South Australia.",
   },
   {
     title: "Free Quotes",
